@@ -1,0 +1,260 @@
+body{
+    background-image: url('bimage1.png');
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   margin: 0vh;
+padding:0vw;
+
+}
+.box1{
+  
+    background-image: linear-gradient(to left, rgb(84,25,45), rgb(9,0,79));
+    /* background-color: red; */
+    border-radius: 70px;
+    width: 80vw;
+    height: 90vh;
+    /* background-position: center; */
+     margin-left: 5em;
+     margin-top: 6vh;
+    opacity: 1;
+
+}
+.box2{
+  
+    background-image: linear-gradient(to left, rgb(84,25,45), rgb(9,0,79));
+    /* background-color: red; */
+    border-radius: 70.1px;
+    width: 80.1vw;
+    height: 90.1vh;
+    /* background-position: center; */
+     margin-left: 5em;
+     margin-top: 6vh;
+    opacity: 1;
+
+}
+.box3{
+  
+    background-image: linear-gradient(to left, rgb(84,25,45), rgb(9,0,79));
+    /* background-color: red; */
+    border-radius: 70px;
+    width: 80vw;
+    height: 90vh;
+    /* background-position: center; */
+     margin-left: 5em;
+     margin-top: 6vh;
+    opacity: 1;
+
+}
+.box4{
+  
+    background-image: linear-gradient(to left, rgb(84,25,45), rgb(9,0,79));
+    /* background-color: red; */
+    border-radius: 70px;
+    width: 80vw;
+    height: 90vh;
+    /* background-position: center; */
+     margin-left: 5em;
+     margin-top: 6vh;
+    opacity: 1;
+
+}
+.boundary{
+ 
+    border: 2px solid #6C2DC7;
+
+}
+.navbar{
+    display: block;
+    display: flex;
+}
+.nav{
+    color: white;
+    float: left;
+    margin-top: 0vh;
+    list-style: none;
+    font-weight: bold;
+}
+.home{
+    display: block;
+    margin-left: 8vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    font-family:'Supermercado One', cursive; 
+}
+.about{
+    display: block;
+    margin-left: 34vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    font-family:'Supermercado One', cursive;
+}
+.skill{
+    display: block;
+    margin-left: 34vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    font-family:'Supermercado One', cursive;
+
+}
+.contact{
+    display: block;
+    margin-left:34vh;
+    margin-top: 2vh;
+    padding: 2vh;
+    font-family:'Supermercado One', cursive;
+
+}
+a:hover{
+    opacity: 1;
+  cursor: pointer;
+  transition: 0.1s;
+  color: rgb(201, 62, 12);
+  border-radius: 2vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.font_title
+{
+    color: white;
+    font-family:'Supermercado One', cursive;
+    margin-left: 3em;
+    font-size: 3rem;
+    margin-top: 0.4em;
+
+}
+.paragraph
+{
+    color: white;
+    font-size: 1.1rem;
+
+}
+.bold_font{
+    color: white;
+    margin-left: 7em;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+    color: white;
+    font-family:'Supermercado One', cursive;
+}
+
+#intro {
+    margin-top: 70px;
+    height: 90vh;
+    text-align: center;
+    width: 100%;
+    padding: 0 30px;
+    color: white; 
+}
+
+#intro-line {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#intro-name {
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 3em;
+ 
+}
+
+#intro-skills {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 0%;
+    font-weight: 500;
+}
+.aboutme_image{
+    margin-left: 52vw;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 75%;
+    border-radius: 20px;
+
+}
+.about_paragraph
+{ color: white;
+    position: absolute;
+    width: 50vw;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-left: 2vw;
+    
+} 
+  #linkdin_image{
+    display: flex;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 190px;
+    width: 260px;
+  }
+  .css_image{
+    display: flex;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    padding-left: 5%;
+    height: 170px;
+    width: 157px;
+  }
+  .c_image{
+    display: flex;
+   float: left;
+   padding-left: 5%;
+   margin-top: 10%;
+   margin-left: 5%;
+    height: 178px;
+    width: 157px;
+  }
+  .c1_image{
+    display: flex;
+    float: left;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    height: 178px;
+    width: 155px;
+  }
+  .html_image{
+    display: flex;
+    float: left;
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-left: 2%;
+    height: 175px;
+    width: 157px;
+  }
+  #whtsapp{
+    display: flex;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 159px;
+    width: 144px;
+
+  }
+  .msg{
+    color: aliceblue;
+  }
+  #insta{
+    float: left;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 155px;
+    width: 170px;
+  }
+  
+  
